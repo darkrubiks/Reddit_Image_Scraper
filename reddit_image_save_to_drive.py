@@ -20,7 +20,7 @@ class ImageCrawler():
 
 	def login(self):
 		return praw.Reddit(client_id='',
-			client_secret='-uj9G-B8',
+			client_secret='',
 			user_agent='',
 			username='',
 			passward='')
